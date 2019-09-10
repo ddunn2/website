@@ -35,6 +35,7 @@ Complete documentation is available at https://appsody.dev
 * [appsody ps](#appsody-ps)	 - List the appsody containers running in the local docker environment
 * [appsody repo](#appsody-repo)	 - Manage your Appsody repositories
 * [appsody run](#appsody-run)	 - Run the local Appsody environment for your project
+* [appsody stack](#appsody-stack)	 - Tools to help create and test Appsody stacks
 * [appsody stop](#appsody-stop)	 - Stops the local Appsody docker container for your project
 * [appsody test](#appsody-test)	 - Test your project in the local Appsody environment
 * [appsody version](#appsody-version)	 - Show Appsody CLI version
@@ -637,6 +638,66 @@ appsody run [flags]
 ### SEE ALSO
 
 * [appsody](#appsody)	 - Appsody CLI
+
+## appsody stack
+
+Tools to help create and test Appsody stacks
+
+### Synopsis
+
+Tools to help create and test Appsody stacks
+
+### Options
+
+```
+  -h, --help   help for stack
+```
+
+### Options inherited from parent commands
+
+```
+      --config string   config file (default is $HOME/.appsody/.appsody.yaml)
+      --dryrun          Turns on dry run mode
+  -v, --verbose         Turns on debug output and logging to a file in $HOME/.appsody/logs
+```
+
+### SEE ALSO
+
+* [appsody](#appsody)	 - Appsody CLI
+* [appsody stack lint](#appsody-stack-lint)	 - Lint your stack to verify that it conforms to the standard of an Appsody stack
+
+## appsody stack lint
+
+Lint your stack to verify that it conforms to the standard of an Appsody stack
+
+### Synopsis
+
+This command will validate that your stack has the structure of an Appsody stack. It will inform you of files/directories
+missing and warn you if your stack could be enhanced.
+
+This command can be run from the base directory of your stack or you can supply a path to the stack as an argument.
+
+```
+appsody stack lint [flags]
+```
+
+### Options
+
+```
+  -h, --help   help for lint
+```
+
+### Options inherited from parent commands
+
+```
+      --config string   config file (default is $HOME/.appsody/.appsody.yaml)
+      --dryrun          Turns on dry run mode
+  -v, --verbose         Turns on debug output and logging to a file in $HOME/.appsody/logs
+```
+
+### SEE ALSO
+
+* [appsody stack](#appsody-stack)	 - Tools to help create and test Appsody stacks
 
 ## appsody stop
 
