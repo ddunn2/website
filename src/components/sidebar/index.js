@@ -1,11 +1,11 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import navStructure from "../../content/docs/sidebar.yaml";
+import navStructure from "../../../content/docs/sidebar.yaml";
 import Accordion from 'react-bootstrap/Accordion'
 import Button from 'react-bootstrap/Button'
-import chevronlogo from "../images/chevron.svg";
+import chevronlogo from "../../images/chevron.svg";
 
-import styles from '../styles/sidebar.module.css';
+import styles from './sidebar.module.css';
 
 let accordionIndex = 0;
 let lastIndex = null;

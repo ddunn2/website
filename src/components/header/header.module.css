@@ -1,0 +1,28 @@
+.header {
+  grid-column: 1 / 6;
+  grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 1.5% 69% 19% 9% 1.5%;
+  background-color: white;
+  box-shadow: 0 -6px 29px var(--darker-grey)
+}
+
+.nav {
+  grid-column: 2 / 3;
+  display: flex;
+  align-items: center;
+}
+
+.search-container {
+  grid-column: 3 / 4;
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.social-nav {
+  grid-column: 4 / 5;
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+}

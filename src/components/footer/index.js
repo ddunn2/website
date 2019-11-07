@@ -1,8 +1,8 @@
 import React from "react";
-
+import styles from "./footer.module.css"
 const Footer = () => {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <ul>
                 <li><a href="https://github.com/appsody/website/blob/master/LICENSE">License</a></li>
                 <li><a href="https://github.com/appsody/website/blob/master/NOTICE.md">Notice</a></li>

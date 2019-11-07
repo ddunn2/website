@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import "../styles/sidebar-extender.css"
+import "./sidebar-extender.css"
 
 const SidebarExtender = () => {
   const [isExpanded, setIsExpanded] = useState(false);

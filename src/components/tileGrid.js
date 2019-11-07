@@ -21,10 +21,8 @@ const TileGrid = (props) => {
     });
 
     return (
-        <div className="container">
-            <div id="application-stacks" className="row mx-auto">
-                {tiles}
-            </div>
+        <div className="stack-cards-section">
+            {tiles}
         </div>
     )
 }

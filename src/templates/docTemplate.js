@@ -3,8 +3,8 @@ import { graphql } from "gatsby"
 
 import Doc from "../components/doc";
 import Layout from "../components/layout"
-import DocSidebar from "../components/docSidebar";
-import SidebarExtender from "../components/sidebar-extender";
+import Sidebar from "../components/sidebar";
+import SidebarExtender from "../components/sidebar/extender";
 
 export default function Template({
   data
@@ -15,7 +15,7 @@ export default function Template({
 
   return (
     <Layout title={title}>
-      <DocSidebar />
+      <Sidebar />
       <Doc html={html}/>
       <SidebarExtender />
     </Layout>
