@@ -1,5 +1,5 @@
 import React from "react";
-import githubLogo from "../images/header_github_icon.svg";
+import githubLogo from "../images/github_logo_white.svg";
 
 class Tile extends React.Component {
   constructor(props) {
