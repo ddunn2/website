@@ -21,7 +21,7 @@ const IndexPage = () => (
         <div className="col">
           <img className="w-75 my-4" src={ appsodyFullLogo } alt="Appsody Logo"></img>
           <p className="lead">
-            Compose a cloud native masterpiece.
+            This has been replaced!
           </p>
           <p>
             Infused with cloud native capabilities from the moment you start, Appsody provides everything you need to iteratively develop applications, ready for deployment to Kubernetes environments. Teams are empowered with sharable technology stacks, configurable and controllable through a central hub.
